@@ -15,4 +15,4 @@ def main():
   print("Instalado")
   
 if __name__=="__main__":
-  main():
+  main()
