@@ -3,7 +3,7 @@ import os
 import sys
 import random as rd
 import requests
-
+	
 BLACK = '\033[1;30m'
 RED = '\033[1;31m'
 GREEN = '\033[1;32m'
@@ -159,7 +159,7 @@ def main():
             os.system("python3 tools/so.py " + v2)
         elif v == "htph":
             os.system("python2 tools/http_headers.py")
-        wlif v == "sbnl":
+        elif v == "sbnl":
             os.system("python2 tools/subnet_lookup.py")
         else:
             print(WHITE + "The command '" + v + "' does not exist")
